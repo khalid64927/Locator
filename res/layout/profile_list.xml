@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+    <RelativeLayout
+        android:id="@+id/header_rel_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_bg" >
+        
+        <TextView
+            android:id="@+id/screen_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:singleLine="true"
+            android:text="@string/profiles_list"
+            android:textColor="@color/White"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+       
+    </RelativeLayout>
+    
+    
+    <ListView
+        android:id="@+id/recipients_ListView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@color/Black"
+        android:layout_below="@+id/header_rel_layout"
+        android:cacheColorHint="@color/Black"
+        android:scrollbars="none" />
+
+    <TextView
+        android:id="@+id/helperText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Large Text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    </RelativeLayout>

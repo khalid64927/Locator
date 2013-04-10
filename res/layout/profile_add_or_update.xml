@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+    
+    
+    <RelativeLayout
+        android:id="@+id/header_rel_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/header_bg" >
+        
+        <TextView
+            android:id="@+id/screen_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dip"
+            android:singleLine="true"
+            android:text="@string/create_profile"
+            android:textColor="@color/White"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+
+       
+    </RelativeLayout>
+    
+     <RelativeLayout
+        android:id="@+id/screen_components"
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/header_rel_layout"
+        android:layout_height="wrap_content" >
+        
+         <EditText
+         android:id="@+id/editText1"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/header_rel_layout"
+         android:layout_marginLeft="32dp"
+         android:hint="@string/profile_name"
+         android:ems="10" >
+
+         <requestFocus />
+     </EditText>
+         
+         
+    </RelativeLayout>
+
+     <Button
+         android:id="@+id/cond_btn"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/screen_components"
+         android:layout_marginLeft="37dp"
+         android:layout_marginTop="14dp"
+         android:text="@string/conditions" />
+
+     <Button
+         android:id="@+id/settings_btn"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/cond_btn"
+         android:layout_below="@+id/cond_btn"
+         android:layout_marginTop="19dp"
+         android:text="@string/settings" />
+
+     <Button
+         android:id="@+id/ok"
+         android:layout_width="100dp"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/settings_btn"
+         android:layout_below="@+id/settings_btn"
+         android:layout_marginTop="17dp"
+         android:text="@string/ok" />
+    
+    </RelativeLayout>

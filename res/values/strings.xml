@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, KLocatorActivity!</string>
+    <string name="app_name">KLocator</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="delete_profile">Delete Profile</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="new_profile">New Profile</string>
+    <string name="update_profile">Update Profile</string>
+    <string name="reminder">Reminder</string>
+    <string name="log">Log</string>
+    <string name="profiles_list">Profiles</string>
+    <string name="profile_name">Enter profile name</string>
+    <string name="conditions">Condition</string>
+    <string name="settings">Settings</string>
+    <string name="ok">OK</string>
+    <string name="condtion_title">Condition Settings</string>
+    <string name="profile_title">Profile Setting</string>
+    <string name="select">Select</string>
+    <string name="location">Location</string>
+    <string name="time">Time</string>
+    <string name="weekdays">Weekdays</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="profile_settings">Settings</string>
+    <string name="notifications">Notifications</string>
+    <string name="ringtone">Ringtone</string>
+    <string name="wallpaper">Wallpaper</string>
+    <string name="live_wallpaper">Live Wallpaper</string>
+    <string name="brightness">Brightness</string>
+    <string name="vibrate">Vibrate</string>
+    <string name="sel_wall">wallpaper name</string>
+    <string name="sel_rgtn">Ringtone name</string>
+    <string name="str_take_pic">Take Picture</string>
+    <string name="str_choose_gallery">Choose from gallery</string>
+    <string name="conf_loc">please select location</string>
+    <string name="conf_rgtn">please select ringtone</string>
+    <string name="conf_profile_name">please enter profile name</string>
+    <string name="ring_tone_title"> Set ringer volume</string>
+    <string name="brightness_title">Set Brightness</string>
+    <string name="no_profles">No profile set!, create new profile by pressing menu key</string>
+    <string name="no_reminders">No reminders set, create new reminder by pressing menu key</string>
+    <string name="add_rem">Add Reminder</string>
+    <string name="rem_what">What</string>
+    <string name="rem_where">Where</string>
+    <string name="rem_from">From</string>
+    <string name="rem_to">To</string>
+    <string name="rem_all_day">All day</string>
+    <string name="rem_timezone">Timezone</string>
+    <string name="rem_what_en">Event Name</string>
+    <string name="rem_what_el">Event Location</string>
+    <string name="rem_desc">Description</string>
+    <string name="rem_desc_ed">Event Description</string>
+    <string name="rem">Reminders</string>
+    <string name="rem_rep">Repetition</string>
+    <string name="loc_waiting">Waiting for location  update...</string>
+    <string name="gps_alert">GPS provider is disabled. Enable GPS to get most accurate location data</string>
+    <string name="network_alert">Network provider is disabled. Enable network provider to instantly get location data</string>
+    <string name="provider_alert">Not all location sources are currently enabled. For the fastest and more accurate location detection.</string>
+	<string name="title">Improve My location</string>
+	<string name="location_unavailable">Location unavailable</string>
+	<string name="submit">Sumbit</string>
+	<string name="cancle">Cancle</string>
+	
+	
+	<string-array name ="repetition_entries">
+	    <item>One-time event</item>
+	    <item>Daily</item>
+	    <item>Every Weekdays(Mon-Fri)</item>
+	    <item>Weekly(Every Monday)</item>
+	    <item>Monthly(Every first Monday)</item>
+	    <item>Monthly(on day 6)</item>
+	    <item>Yearly(on 6 August)</item>
+	</string-array>
+	
+	
+	  <string-array name ="reminder_entries">
+	    <item>None</item>
+	    <item>10 minute</item>
+	    <item>15 minute</item>
+	    <item>25 minute</item>
+	    <item>30 minute</item>
+	    <item>45 minute</item>
+	    <item>1 hour</item>
+	    <item>2 hour</item>
+	    <item>3 hour</item>
+	    <item>12 hour</item>
+	    <item>1 week</item>
+	</string-array>
+</resources>
+

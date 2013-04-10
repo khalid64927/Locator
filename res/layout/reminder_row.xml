@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" >
+    
+    <RelativeLayout
+        android:id="@+id/alert_recepients_list_row"
+        android:layout_width="wrap_content"
+        android:layout_height="57dip"
+        android:layout_centerHorizontal="true" >
+
+        <ImageView
+            android:id="@+id/recipient_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:layout_marginTop="5dip"
+            android:background="@drawable/recepient_icon" />
+
+        <TextView
+            android:id="@+id/recipient_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15dip"
+            android:layout_marginTop="8dip"
+            android:layout_toRightOf="@+id/recipient_icon"
+            android:paddingRight="30dip"
+            android:singleLine="true"
+            android:text="File Name"
+            android:textColor="@color/grey"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/recipient_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:background="@drawable/arrow_settings" />
+    </RelativeLayout>
+    
+
+</RelativeLayout>

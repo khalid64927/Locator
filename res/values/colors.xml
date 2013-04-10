@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+		Copyright (C) 2007 The Android Open Source Project Licensed under the
+		Apache License, Version 2.0 (the "License"); you may not use this file
+		except in compliance with the License. You may obtain a copy of the
+		License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+		by applicable law or agreed to in writing, software distributed under
+		the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+		CONDITIONS OF ANY KIND, either express or implied. See the License for
+		the specific language governing permissions and limitations under the
+		License.
+-->
+
+<resources>
+
+    <drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <drawable name="screen_background_black">#ff000000</drawable>
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+
+    <color name="White">#ffffff</color>
+    <color name="Black">#000000</color>
+    <color name="Navy_Blue">#0B0B61</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="grey">#A8A8A8</color>
+    <color name="dark_grey">#636363</color>
+    <color name="settings_grey">#333333</color>
+    <color name="deep_grey">#323232</color>
+    <color name="deep_dark_gray">#353535</color>
+    <color name="new_grey">#dddddd</color>
+
+</resources>
